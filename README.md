@@ -9,7 +9,7 @@ This approach not only streamlined the computation by focusing on potentially us
 
 To run: After git cloning the repo with the makefile and python file, and cd'ing, execute python3 prog1.py in the command line.
 
-# prog2
+# 2: Cross-Over Point Analysis Between Conventional and Strassen's Algorithm
 In my exploration to determine the cross-over point between conventional matrix multiplication and Strassen's algorithm, I conducted experiments to identify at which matrix size Strassen's becomes more efficient. My method, implemented in a function called trackTime, dynamically adjusts for odd and even-sized matrices and tracks performance, pinpointing when Strassen's algorithm starts outperforming the conventional method.
 
 For odd-sized matrices, the most consistent cross-over point identified was at size 129, while for even-sized matrices, it was at size 64. These points varied slightly with each trial due to factors like matrix randomness and background computing tasks, yet they remained around these values consistently.
@@ -24,7 +24,7 @@ By dynamically choosing between Strassen's and conventional methods based on mat
 
 This exploration underlines that while theoretical models provide a baseline, practical implementation often reveals additional complexities that must be managed to truly optimize performance.
 
-# prog3
+# 3: Algorithm Efficiency and Effectiveness in Optimal Partitioning Residue Analysis
 
 In my analysis of seven main algorithms to find the optimal partitioning residue, I considered their effectiveness and efficiency based on the number of iterations, $M$, where each algorithm behaves differently. Here’s a summary from my findings and comparisons:
 
