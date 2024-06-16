@@ -1,4 +1,4 @@
-# prog1: Efficient MST Computation in High-Dimensional Graphs Using Prim's Algorithm and Thresholding
+# 1: Efficient MST Computation in High-Dimensional Graphs Using Prim's Algorithm and Thresholding
 Overview of My MST Algorithm:
 To find the minimum spanning tree (MST) for graphs in varying dimensions, I implemented Prim's algorithm, chosen for its efficiency in graphs with a high edge-to-vertex ratio. I adapted it by incorporating a binary heap for the priority queue, drawing on pseudocode from lecture materials. My primary functions within this algorithm include insert, for adding new vertex-edge pairs, decreaseKey for updating edge weights, and deleteMin for extracting the minimum edge.
 
